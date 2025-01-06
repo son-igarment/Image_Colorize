@@ -1,1 +1,1 @@
-# download the model file from [here](https://drive.google.com/file/d/14YmdCfcMOgfJEBNJEl6Xj1SB-RccgJBO/view?usp=sharing) and add them to this folder in order to run this project.
+Focuses on transforming grayscale images into vibrant, colored versions using advanced AI and machine learning techniques, with the goal is to restore old photographs, add life to monochromatic images, or create artistic renditions of classic visuals.
