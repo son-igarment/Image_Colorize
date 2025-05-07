@@ -1,3 +1,6 @@
+# Image Colorization Script
+# Author: Phạm Lê Ngọc Sơn
+
 # Imports
 
 import numpy as np

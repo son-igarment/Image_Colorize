@@ -1,3 +1,6 @@
+# Image Colorization GUI Application
+# Author: Phạm Lê Ngọc Sơn
+
 import tkinter as tk
 from tkinter import *
 from tkinter import filedialog
@@ -14,7 +17,7 @@ class Window(Frame):
         Frame.__init__(self, master)
         self.master = master
         self.pos = []
-        self.master.title("B&W Image Colorization")
+        self.master.title("Image Colorization Tool by Phạm Lê Ngọc Sơn")
         self.pack(fill=BOTH, expand=1)
         menu = Menu(self.master)
         self.master.config(menu=menu)
@@ -84,7 +87,7 @@ class Window(Frame):
  
 root = tk.Tk()
 root.geometry("%dx%d" % (980, 600))
-root.title("B&W Image Colorization GUI")
+root.title("Image Colorization Tool by Phạm Lê Ngọc Sơn")
 img = ImageTk.PhotoImage(Image.open("new1.jpg"))
 app = Window(root)
 app.pack(fill=tk.BOTH, expand=1)
